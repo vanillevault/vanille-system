@@ -2,7 +2,7 @@
 	path = vanille_scripts/CamPhish
 	url = https://github.com/techchipnet/CamPhish.git
 
-[submodule "vanille_scripts/crips"]
+[submodule "vanille_scripts/Crips"]
 	path = vanille_scripts/Crips
 	url = https://github.com/Manisso/Crips.git
 
