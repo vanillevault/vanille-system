@@ -1,6 +1,6 @@
 # Vanille System
 
-**Vanille System** es un entorno modular para Termux diseñado por NVLL, combinando estética, herramientas OSINT, automatización y funcionalidad pulida para investigadores, hackers éticos y operadores digitales que exigen precisión y estilo.
+**Vanille System** es un entorno modular para Termux diseñado por vanille, combinando estética, herramientas OSINT, automatización y funcionalidad pulida para investigadores, hackers éticos y operadores digitales que exigen precisión y estilo.
 
 ---
 
