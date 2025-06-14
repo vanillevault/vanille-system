@@ -1,9 +1,9 @@
-[submodule "vanille_scripts/camphish"]
-	path = vanille_scripts/camphish
+[submodule "vanille_scripts/CamPhish"]
+	path = vanille_scripts/CamPhish
 	url = https://github.com/techchipnet/CamPhish.git
 
 [submodule "vanille_scripts/crips"]
-	path = vanille_scripts/crips
+	path = vanille_scripts/Crips
 	url = https://github.com/Manisso/Crips.git
 
 [submodule "vanille_scripts/evilurl"]
