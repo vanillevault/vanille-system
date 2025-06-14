@@ -1,39 +1,69 @@
 # Vanille System
 
-## Descripción
+**Vanille System** es un entorno modular para Termux diseñado por NVLL, combinando estética, herramientas OSINT, automatización y funcionalidad pulida para investigadores, hackers éticos y operadores digitales que exigen precisión y estilo.
 
-Vanille System es un entorno modular y personalizado para Termux que incluye una suite completa de herramientas OSINT, hacking ético y automatización, con un estilo único y funcionalidad avanzada.
+---
 
-## Instalación
+## 🔧 Instalación
 
-Clona el repositorio:
-
-```bash
-git clone https://github.com//.git
-cd 
-bash vanille-installer.sh
-```
-
-## Uso
-
-Inicia el launcher principal:
+Clona el repositorio y entra al directorio:
 
 ```bash
-./vanille.sh
-```
+git clone https://github.com/vanillevault/vanille-system.git
+cd vanille-system
 
-## Estructura
+Aplica el entorno personalizado:
 
-- vanille_scripts/: Carpeta con las herramientas organizadas en subcarpetas.
-- vanille.sh: Launcher principal.
-- vanille-installer.sh: Instalador automático.
-- vanille-setup.sh: Setup de dependencias.
-- bashrc_vanille_custom: Configuración personalizada Termux.
+cp .bashrc ~/
+source ~/.bashrc
 
-## Contacto
+Ejecuta el launcher:
 
-Instagram: @vanille.vault
+bash vanille-launcher.sh
 
-## Licencia
 
-Este proyecto está bajo licencia MIT. Revisa LICENSE para detalles.
+---
+
+📁 Estructura del Proyecto
+
+vanille-system/
+├── .bashrc                → Estética Vanille para Termux (verde menta + negro, alias y entorno OSINT)
+├── vanille-launcher.sh    → Menú de herramientas con selector visual
+└── vanille_scripts/       → Submódulos con herramientas OSINT y de red
+    ├── Crips              → Reconocimiento en red
+    ├── evilurl            → Detecta URLs falsas (homógrafos, phishing)
+    ├── ip-tracer          → Geolocalización de IPs
+    ├── phoneinfoga        → Información sobre números de teléfono
+    └── zphisher           → Framework de phishing automatizado
+
+
+---
+
+⚡ Uso
+
+Abre Termux y ejecuta:
+
+vanille
+
+Este alias te llevará al menú de herramientas y scripts OSINT.
+
+
+---
+
+📡 Contacto
+
+IG: @vanille.vault
+
+
+---
+
+📜 Licencia
+
+Este proyecto está bajo licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+
+---
+
+> "La estética no está reñida con la eficacia. Vanille es precisión con clase."
+— NVLL
+
