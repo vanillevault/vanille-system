@@ -1,0 +1,23 @@
+[submodule "vanille_scripts/camphish"]
+    path = vanille_scripts/camphish
+    url = https://github.com/techchipnet/CamPhish.git
+
+[submodule "vanille_scripts/crips"]
+    path = vanille_scripts/crips
+    url = https://github.com/Manisso/Crips.git
+
+[submodule "vanille_scripts/evilurl"]
+    path = vanille_scripts/evilurl
+    url = https://github.com/glaubermagal/evilurl.git
+
+[submodule "vanille_scripts/ip-tracer"]
+    path = vanille_scripts/ip-tracer
+    url = https://github.com/rajkumardusad/IP-Tracer.git
+
+[submodule "vanille_scripts/phoneinfoga"]
+    path = vanille_scripts/phoneinfoga
+    url = https://github.com/sundowndev/phoneinfoga.git
+
+[submodule "vanille_scripts/zphisher"]
+    path = vanille_scripts/zphisher
+    url = https://github.com/htr-tech/zphisher.git
